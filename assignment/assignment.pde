@@ -36,4 +36,8 @@ void draw() {
   //here is the body
   stroke(255,0,0);
   line(425,380,425,300);
+  //here are the arms
+  stroke(255,218,185);
+  line(425,340,360,380);
+  line(425,340,480,380);
 }
