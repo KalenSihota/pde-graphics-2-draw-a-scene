@@ -33,5 +33,7 @@ void draw() {
   strokeWeight(2);
   line(360,480,425,380);
   line(500,480,425,380);
-
+  //here is the body
+  stroke(255,0,0);
+  line(425,380,425,300);
 }
