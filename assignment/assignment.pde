@@ -8,15 +8,16 @@
 
 void setup() {
   size(600, 500); 
-  background(17, 176, 244); 
+  background(9, 5, 66); 
 }
 void draw() {
   
   fill(159, 157, 165);
-  rect(0, 480, 750, 35);
-  fill(29, 109, 32);
-  rect(0, 460, 750, 20);
-  fill(159, 157, 165);
-  rect(70, 100, 10, 360);
-  ellipse(88, 85, 79, 65);
+  rect(0, 480, 750, 125);
+  rect(70, 120, 10, 360);
+  ellipseMode(CENTER); 
+ arc(110, 120, 80, 80, PI, 2*PI, CHORD); //thanks Dr. P
+ fill(229,229,6);
+ arc(110, 120, 40, 40, 0, PI, CHORD);
+
 }
