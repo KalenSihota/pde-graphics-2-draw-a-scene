@@ -40,7 +40,12 @@ void draw() {
   stroke(255,218,185);
   line(425,340,360,380);
   line(425,340,480,380);
-   //here is the head
+  //here is the head
   fill(255,218,185);
   ellipse(425,300,50,55);
+  //here is the face
+  stroke(0);
+  fill(0);
+  ellipse(410,290,5,5);
+  line(400,310,430,310);
 }
