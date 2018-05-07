@@ -50,4 +50,8 @@ void draw() {
   fill(0);
   ellipse(410,290,5,5);
   line(400,310,430,310);
+  //here is some text for you
+  text("/ \n /", 85,100);
+  text("\\ \n \\", 125,100);
+  text("The walking man", 225,490);
 }
