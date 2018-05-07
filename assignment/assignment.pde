@@ -40,4 +40,7 @@ void draw() {
   stroke(255,218,185);
   line(425,340,360,380);
   line(425,340,480,380);
+   //here is the head
+  fill(255,218,185);
+  ellipse(425,300,50,55);
 }
