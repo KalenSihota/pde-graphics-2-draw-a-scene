@@ -21,6 +21,7 @@ void draw() {
   line(500,480,500,500);
   //here is the lamp post
   stroke(0); 
+  strokeWeight(3);
   rect(70, 120, 10, 360);
   ellipseMode(CENTER); 
   arc(110, 120, 80, 80, PI, 2*PI, CHORD); //thanks Dr. P
@@ -30,7 +31,7 @@ void draw() {
   arc(130, 480, 68, 27, 0, PI, CHORD);
   //here are the jeans
   stroke(19,100,249);
-  strokeWeight(2);
+  strokeWeight(3);
   line(360,480,425,380);
   line(500,480,425,380);
   //here is the body
@@ -45,6 +46,7 @@ void draw() {
   ellipse(425,300,50,55);
   //here is the face
   stroke(0);
+  strokeWeight(2);
   fill(0);
   ellipse(410,290,5,5);
   line(400,310,430,310);
